@@ -1,0 +1,51 @@
+name: Validate profile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s README.md
+          test -s assets/hero.svg
+          test -s assets/ecosystem.svg
+          test -s assets/workflow.svg
+
+      - name: Validate XML assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libxml2-utils
+          xmllint --noout assets/*.svg
+
+      - name: Check internal asset references
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r asset; do
+            test -f "$asset" || { echo "Missing asset: $asset"; exit 1; }
+          done < <(grep -oE 'assets/[A-Za-z0-9._/-]+' README.md | sort -u)
+
+      - name: Guard against accidental secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RniE '(ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY)' . --exclude-dir=.git; then
+            echo 'Potential secret detected.'
+            exit 1
+          fi
