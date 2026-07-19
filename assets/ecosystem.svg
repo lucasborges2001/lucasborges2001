@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ecosistema técnico de Lucas Borges</title>
+  <desc id="desc">Pruebas como host de integración conectado con Base, TestKit, BasePLC, SecurityLab, DeviceHub y telemetría.</desc>
+  <rect width="1200" height="520" rx="24" fill="#111827"/>
+  <g stroke="#475569" stroke-width="3" fill="none">
+    <path d="M330 150H490"/><path d="M710 150H870"/><path d="M600 230V330"/>
+    <path d="M330 390H490"/><path d="M710 390H870"/><path d="M600 110V72"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g fill="#1F2937" stroke="#3B82F6" stroke-width="2">
+      <rect x="490" y="110" width="220" height="120" rx="20"/>
+      <rect x="90" y="105" width="240" height="90" rx="18"/>
+      <rect x="870" y="105" width="240" height="90" rx="18"/>
+      <rect x="490" y="330" width="220" height="100" rx="18"/>
+      <rect x="90" y="345" width="240" height="90" rx="18"/>
+      <rect x="870" y="345" width="240" height="90" rx="18"/>
+      <rect x="490" y="30" width="220" height="64" rx="16"/>
+    </g>
+    <g fill="#F8FAFC" text-anchor="middle">
+      <text x="600" y="157" font-size="28" font-weight="700">Pruebas</text>
+      <text x="600" y="190" font-size="16" fill="#94A3B8">Integration host</text>
+      <text x="210" y="145" font-size="24" font-weight="600">Base</text>
+      <text x="210" y="173" font-size="15" fill="#94A3B8">Identidad y dominio</text>
+      <text x="990" y="145" font-size="24" font-weight="600">SecurityLab</text>
+      <text x="990" y="173" font-size="15" fill="#94A3B8">Red y seguridad</text>
+      <text x="600" y="372" font-size="24" font-weight="600">TestKit</text>
+      <text x="600" y="402" font-size="15" fill="#94A3B8">Contratos y validación</text>
+      <text x="210" y="385" font-size="24" font-weight="600">BasePLC</text>
+      <text x="210" y="413" font-size="15" fill="#94A3B8">Operación industrial</text>
+      <text x="990" y="385" font-size="24" font-weight="600">Telemetry</text>
+      <text x="990" y="413" font-size="15" fill="#94A3B8">Salud y observabilidad</text>
+      <text x="600" y="70" font-size="21" font-weight="600">DeviceHub</text>
+    </g>
+  </g>
+  <g fill="#34D399">
+    <circle cx="410" cy="150" r="6"/><circle cx="790" cy="150" r="6"/><circle cx="600" cy="280" r="6"/>
+  </g>
+</svg>
