@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Borges — software modular, automatización e infraestructura</title>
+  <desc id="desc">Banner técnico oscuro con nodos conectados y una presentación profesional.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g opacity="0.38" stroke="#334155" stroke-width="1">
+    <path d="M760 70H1110M820 140H1170M710 210H1080M800 280H1150M740 350H1090"/>
+    <path d="M820 70V350M910 70V350M1000 70V350M1090 70V350"/>
+  </g>
+  <g fill="#1F2937" stroke="#3B82F6" stroke-width="2">
+    <rect x="800" y="72" width="142" height="54" rx="14"/>
+    <rect x="980" y="156" width="142" height="54" rx="14"/>
+    <rect x="760" y="252" width="142" height="54" rx="14"/>
+    <rect x="952" y="326" width="142" height="54" rx="14"/>
+  </g>
+  <g stroke="url(#accent)" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M942 99C985 99 985 183 980 183"/>
+    <path d="M1051 210C1051 250 902 279 902 279"/>
+    <path d="M831 306C831 350 952 353 952 353"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#F8FAFC">
+    <text x="76" y="104" font-size="20" letter-spacing="4" fill="#94A3B8">LUCAS SOLUCIONES WEB</text>
+    <text x="76" y="178" font-size="52" font-weight="700">Lucas Borges</text>
+    <text x="76" y="226" font-size="25" fill="#CBD5E1">Software modular · Automatización · Infraestructura</text>
+    <text x="76" y="286" font-size="20" fill="#94A3B8">Construyo sistemas que pueden integrarse, probarse,</text>
+    <text x="76" y="316" font-size="20" fill="#94A3B8">observarse y evolucionar.</text>
+    <rect x="76" y="350" width="310" height="4" rx="2" fill="url(#accent)"/>
+    <text x="827" y="106" font-size="16">Base</text>
+    <text x="1005" y="190" font-size="16">Pruebas</text>
+    <text x="787" y="286" font-size="16">TestKit</text>
+    <text x="973" y="360" font-size="16">Telemetry</text>
+  </g>
+</svg>
