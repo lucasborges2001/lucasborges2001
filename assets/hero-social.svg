@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title desc">
+  <title id="title">Hola, soy Lucas Borges</title>
+  <desc id="desc">Páginas web, sistemas y automatizaciones. Ideas claras, soluciones que funcionan.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11142A"/>
+      <stop offset="0.55" stop-color="#161B3B"/>
+      <stop offset="1" stop-color="#121A2F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#5B87F7"/>
+      <stop offset="1" stop-color="#37D2BE"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1120" height="340" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1120" height="340" fill="url(#bg)"/>
+    <circle cx="980" cy="80" r="255" fill="url(#glow)"/>
+    <circle cx="955" cy="160" r="100" fill="none" stroke="#8B5CF6" stroke-width="2" opacity=".65"/>
+    <circle cx="955" cy="160" r="145" fill="none" stroke="#5B87F7" stroke-width="1.5" opacity=".4"/>
+    <circle cx="955" cy="160" r="190" fill="none" stroke="#37D2BE" stroke-width="1.5" opacity=".22"/>
+    <path d="M820 192 L910 104 L997 174 L1085 92" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+    <circle cx="820" cy="192" r="6" fill="#8B5CF6"/>
+    <circle cx="910" cy="104" r="6" fill="#5B87F7"/>
+    <circle cx="997" cy="174" r="6" fill="#37D2BE"/>
+    <circle cx="1085" cy="92" r="6" fill="#5B87F7"/>
+    <text x="60" y="72" fill="#A7B4D1" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3">LUCAS SOLUCIONES WEB</text>
+    <text x="60" y="144" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700">Hola, soy Lucas Borges.</text>
+    <text x="60" y="190" fill="#DBE4F8" font-family="Arial, Helvetica, sans-serif" font-size="25">Creo soluciones digitales que simplifican tu trabajo.</text>
+    <rect x="60" y="216" width="470" height="4" rx="2" fill="url(#accent)"/>
+    <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+      <rect x="60" y="253" width="147" height="40" rx="20" fill="#2C2B52" stroke="#6C5CE7"/>
+      <text x="133.5" y="279" text-anchor="middle" fill="#F3EFFF">Páginas web</text>
+      <rect x="221" y="253" width="117" height="40" rx="20" fill="#1F3451" stroke="#4B8CD8"/>
+      <text x="279.5" y="279" text-anchor="middle" fill="#E7F2FF">Sistemas</text>
+      <rect x="352" y="253" width="177" height="40" rx="20" fill="#173E44" stroke="#2AC2B0"/>
+      <text x="440.5" y="279" text-anchor="middle" fill="#E0FAF5">Automatizaciones</text>
+    </g>
+  </g>
+</svg>
